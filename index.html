@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link str="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" type="x-icon" href="img/faviconc.ico">
+    <script src="index.js"></script>
+    <title>Formulário</title>
+</head>
+
+<body>
+    
+    <div align="center">
+        <h1>Cálculo de médias</h1>
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" id="nome" placeholder="Primeiro nome">
+        <label for="sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Segundo nome"><br><br><br>
+        
+        <label for="number"><strong>1º Bimestre</strong></label>
+        <input type="number" name="n1" id="n1" placeholder="Nota do 1º bimestre" />
+        <label for="number"><strong>2º Bimestre</strong></label>
+        <input type="number" name="n2" id="n2" placeholder="Nota do 2º bimestre" /><br><br><br>
+        <label for="number"><strong>3º Bimestre</strong></label>
+        <input type="number" name="n3" id="n3" placeholder="Nota do 3º bimestre" />
+        <label><strong>4º Bimestre</strong></label>
+        <input type="number" name="n4" id="n4" placeholder="Nota do 4° bimestre" /><br><br><br>
+        <label><strong>Média</strong></label><br>
+        <input type="text" id="txtResultado" value=""><br><br>
+        <label><strong>Situação</strong></label><br>
+        <input type="text" id="txtaprovado" value=""><br><br>
+
+        <label id="lb2" value=""></label><br><br>
+
+    
+    <button onclick="calcular()">Calcular resultado</button><br><br>
+
+       
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    background-image: url("img/quadroo.JPEG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 2%;
+    background-size: 1500px;
+    color: aliceblue;
+    padding-left: 27%;
+    padding-top: 1.5%;
+    display: flexbox;
+    justify-content: center;
+    font-family: arial;
+    font-size: 15px;
+}
+
+div{
+    background-color: black;
+    position: absolute;
+    padding: 50px;
+    border-radius: 14px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    outline:none ;
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #59429d;
+    width: 100%;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #CCBBFF;
+    cursor: pointer;
+}
+
