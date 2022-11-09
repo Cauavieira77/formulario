@@ -9,9 +9,9 @@ function calcular(){
 
     document.getElementById('txtResultado').setAttribute("value", media);
 
-    if (media >="70"){
+    if (media >="7.0"){
         document.getElementById('txtaprovado').setAttribute("value", "Aprovado");
-    } else if (media <"40"){
+    } else if (media <"4.0"){
         document.getElementById('txtaprovado').setAttribute("value", "Reprovado");
     } else {
         document.getElementById('txtaprovado').setAttribute("value", "Precisa fazer final")
